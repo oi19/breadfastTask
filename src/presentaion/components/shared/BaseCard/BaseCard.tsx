@@ -1,5 +1,6 @@
 import React from "react"
 import { View, StyleSheet } from "react-native"
+import { getHeight, scale } from "../../../../shared/styles/dimensions"
 
 interface BaseCardProps {
   children: React.ReactNode
@@ -12,10 +13,10 @@ const BaseCard: React.FC<BaseCardProps> = ({ children }) => {
 const styles = StyleSheet.create({
   container: {
     flexDirection: "column",
-    padding: 10,
+    padding: scale(10),
     backgroundColor: "#fff",
     borderRadius: 8,
-    marginVertical: 8,
+    marginVertical: getHeight(8),
     shadowColor: "#000",
     shadowOpacity: 0.1,
     shadowRadius: 10,

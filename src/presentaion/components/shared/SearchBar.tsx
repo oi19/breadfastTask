@@ -1,5 +1,6 @@
 import React from "react"
 import { View, TextInput, StyleSheet } from "react-native"
+import { scale } from "../../../shared/styles/dimensions"
 
 interface SearchBarProps {
   query: string
@@ -26,7 +27,7 @@ const styles = StyleSheet.create({
   input: {
     borderWidth: 1,
     borderColor: "#D1D5DB",
-    padding: 8,
+    padding: scale(8),
     borderRadius: 8,
   },
 })

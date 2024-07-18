@@ -3,6 +3,8 @@ import { View, Text, StyleSheet, Image, ImageBackground } from "react-native"
 import { useNavigation } from "@react-navigation/native"
 import Constants from "expo-constants"
 import * as Progress from "react-native-progress"
+import { getHeight } from "../../../shared/styles/dimensions"
+import { Spacing } from "../../../shared/styles"
 
 // Replace with Breadfast's primary color
 const BREADFAST_PRIMARY_COLOR = "#690044" // Example color
@@ -62,24 +64,14 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: "#ffffff",
   },
-  logoContainer: {
-    flex: 2,
-    justifyContent: "center",
-    alignItems: "center",
-  },
   loaderContainer: {
     flex: 1,
     justifyContent: "flex-end",
     alignItems: "center",
-    paddingBottom: 50,
-  },
-  logo: {
-    width: 200,
-    height: 200,
-    resizeMode: "contain",
+    paddingBottom: getHeight(50),
   },
   versionText: {
-    marginTop: 10,
+    marginTop: Spacing.S11,
     fontSize: 16,
     color: "#888",
   },

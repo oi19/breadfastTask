@@ -1,5 +1,6 @@
 import { View, Text, TouchableOpacity, StyleSheet } from "react-native"
 import React from "react"
+import { getHeight } from "../../../shared/styles/dimensions"
 
 type ReadTextMoreProps = {
   text: string
@@ -42,7 +43,7 @@ const ReadMore: React.FC<ReadTextMoreProps> = ({
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: 16,
+    marginTop: getHeight(16),
   },
   text: {
     fontFamily: "sans-serif-medium",

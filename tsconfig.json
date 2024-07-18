@@ -10,5 +10,6 @@
     "forceConsistentCasingInFileNames": true,
     "types": ["jest", "react-native"]
   },
-  "include": ["src", "__tests__"]
+  "include": ["src", "__tests__"],
+  "extends": "expo/tsconfig.base"
 }
