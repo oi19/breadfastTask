@@ -17,12 +17,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/breadfastSplash.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.oi19.breadfastTask"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "03e77542-b28b-423f-a6b0-c84609cc017c"
+      }
     }
   }
 }
