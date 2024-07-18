@@ -1,4 +1,4 @@
-# React Native expo + Typescript
+![WhatsApp Image 2024-07-18 at 11 07 30 AM (1)](https://github.com/user-attachments/assets/98bf5666-b420-4bac-a27b-3244a5ea7826)# React Native expo + Typescript
 
 ## Setup and Run Instructions
 
@@ -82,6 +82,16 @@ You've successfully run and modified your React Native App. :partying_face:
 
 - If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
 - If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+
+# Screen shots
+
+![WhatsApp Image 2024-07-18 at 11 07 30 AM](https://github.com/user-attachments/assets/bda890d7-b2ab-4565-ab5f-a9b91b1ad43b)
+![WhatsApp Image 2024-07-18 at 11 07 31 AM](https://github.com/user-attachments/assets/663b6aab-1ea2-4635-9e4b-4db028f8bcb0)
+![WhatsApp Image 2024-07-18 at 11 07 31 AM (1)](https://github.com/user-attachments/assets/a02143db-5829-4b81-b4c3-09c9a9cb2b2f)
+![WhatsApp Image 2024-07-18 at 11 07 31 AM (2)](https://github.com/user-attachments/assets/871123f8-ac93-48a7-8abd-d70f14dc0dec)
+
+
+
 
 # Troubleshooting
 
