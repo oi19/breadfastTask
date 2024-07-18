@@ -1,4 +1,4 @@
-![WhatsApp Image 2024-07-18 at 11 07 30 AM (1)](https://github.com/user-attachments/assets/98bf5666-b420-4bac-a27b-3244a5ea7826)# React Native expo + Typescript
+# React Native expo + Typescript
 
 ## Setup and Run Instructions
 
