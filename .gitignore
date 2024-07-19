@@ -33,3 +33,27 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Yarn lock file
+yarn.lock
+
+# Yarn error log
+yarn-error.log
+
+# Yarn cache directory
+.yarn/
+
+
+# babel
+.babelrc
+babel.config.js
+babel.config.json
+.babelcache
+.babelcache.json
+
+# @babel files
+@babel/*
